@@ -1,0 +1,144 @@
+body {
+    position: relative;
+}
+.round {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 1px solid tomato;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite; 
+}
+.round:hover {
+    animation-name: move;
+    animation-play-state: paused;
+    /* animation-duration: 8s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;  */
+}
+@keyframes move {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    10% {
+        left: 0;
+        top: 600px;
+    }
+    20% {
+        left: 0;
+        top: 200px;
+    }
+    30% {
+        left: 0;
+        top: 600px;
+    }
+    40% {
+        left: 0;
+        top: 300px;
+    }
+    50% {
+        left: 0;
+        top: 600px;
+    }
+    60% {
+        left: 0;
+        top: 400px;
+    }
+    70% {
+        left: 0;
+        top: 600px;
+    }
+    80% {
+        left: 0;
+        top: 500px;
+    }
+    90% {
+        left: 0;
+        top: 600px;
+    }
+    100% {
+        left: 0;
+        top: 600px;
+    }
+}
+.sqr {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: sqrMove;
+    animation-duration: 8s;
+}
+@keyframes sqrMove {
+    0% {
+        top: 100px;
+        right: 100px;
+    }
+    10% {
+        top: 100px;
+        right: 200px;
+        width: 0;
+        height: 100px;
+    }
+    20% {
+        top: 100px;
+        right: 200px;
+        width: 100px;
+        height: 100px;
+    }
+    30% {
+        top: 100px;
+        right: 200px;
+        width: 100px;
+        height: 0;
+    }
+    40% {
+        top: 200px;
+        right: 200px;
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        top: 200px;
+        right: 200px;
+        width: 0;
+        height: 100px;
+    }
+    60% {
+        top: 200px;
+        right: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    70% {
+        top: 200px;
+        right: 100px;
+        width: 100px;
+        height: 0;
+    }
+    80% {
+        top: 100px;
+        right: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    90% {
+        top: 100px;
+        right: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    100% {
+        top: 100px;
+        right: 100px;
+        width: 100px;
+        height: 100px;
+    }
+}
